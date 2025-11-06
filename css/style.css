@@ -1,0 +1,326 @@
+body
+{
+    background-color: rgb(27, 84, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ 
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+nav
+{
+    display: flex;
+    border: 2px black solid;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(22, 57, 102);
+}
+
+h1
+{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer
+{
+    text-align: left;
+    position: relative; 
+    bottom: 0;
+    font-size: 10px;
+}
+.movement
+{
+    width: 550px;
+    height: 150px;
+
+}
+.imgstuff
+{
+    width: 300px;
+    border-radius: 8px;
+}
+.myIntro
+{
+    background-color: rgb(0, 29, 66);
+    border-radius: 5px;
+    width: 570px;
+    height: 250px;
+    padding: 5px 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.profilepic
+{
+    position: absolute;
+    display: flex;
+    left: 70%;
+    top: 200px;
+}
+nav a:hover
+{
+    color: rgb(74, 74, 124);
+    text-decoration: underline;
+    
+}
+textarea[id="message"]
+{
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    text-align: left;
+    vertical-align: top;
+    padding: 5px;
+    border-radius: 8px;
+}
+textarea[id="message"]::placeholder
+{
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input
+{
+    width: 300px;
+    border-radius: 6px;
+    padding: 10px;
+}
+form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sendButton
+{
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 6px;
+}
+div img
+{
+    width: 200px;
+}
+.goalkeeper
+{
+    display: flex;
+    justify-content: center;
+}
+.defense
+{
+    display: flex;
+    justify-content: space-around;
+}
+.midfield
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.attack
+{
+    display: flex;
+    justify-content: space-around;
+}
+.backgroundPitch
+{
+    background-image: url(images\(assignment1\ html\ and\ css\)/gallery1/pitchpic1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.tableOfContents
+{
+    background-color: rgb(0, 29, 66);
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}
+.space
+{
+    padding-left: 40px;
+}
+.youngDaniel
+{
+    width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    left: 59%;
+    top: 500px;
+}
+.gallery2
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.gallery2 img
+{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+.gallery2 img:hover
+{
+    transform: scale(1.05);
+}
+@media (max-width: 850px)
+{
+    .defense 
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .midfield 
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .attack
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .div img 
+    {
+        width: 90%;      
+        height: auto;             
+    }
+}
+@media (max-width: 1200px)
+{
+    .gallery2
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+} 
+.experiencetable
+{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.cvlayout
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+
+}
+.aboutSports
+{
+    background-color: rgb(10, 50, 145);
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+    border: solid black 2px;
+}
+.aboutsport
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aboutsportimg
+{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+.aboutposition
+{
+    background-color: rgb(14, 57, 139);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid black 2px;
+}.aboutposition1
+{
+    background-color: rgb(20, 35, 145);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    border: solid black 2px;
+}
+.aboutInterests
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aboutmyinterests
+{
+    background-color: rgb(19, 81, 157);
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    border: solid black 2px;
+}
+.aboutinterest
+{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.aboutmain
+{
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 900px)
+{
+    .aboutposition1 
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .aboutmyinterests
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .aboutinterest
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .aboutposition 
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .aboutSports
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+    .aboutsport
+    {
+        flex-direction: column;  
+        align-items: center; 
+    }
+}
+
