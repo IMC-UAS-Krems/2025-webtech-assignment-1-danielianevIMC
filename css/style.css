@@ -203,7 +203,17 @@ div img
     }
 }
 
-
+@media (max-width: 1200px)
+{
+    .youngDaniel
+    {
+        display: none;
+    }
+    .profilepic
+    {
+        display: none;
+    }
+} 
 
 @media (max-width: 1200px)
 {
