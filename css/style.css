@@ -136,7 +136,7 @@ div img
 }
 .backgroundPitch
 {
-    background-image: url(images\(assignment1\ html\ and\ css\)/gallery1/pitchpic1.jpg);
+    background-image: url(../images/pitchpic1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
@@ -147,8 +147,8 @@ div img
     border-radius: 8px;
     padding: 10px;
     position: absolute;
-    left: 100px;
-    bottom: 50px;
+    left: 5%;
+    bottom: 10%;
 }
 .space
 {
